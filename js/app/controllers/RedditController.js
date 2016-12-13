@@ -21,3 +21,5 @@ function RedditController(DomainService, SubRedditService) {
 angular
 	.module('app')
 	.controller('RedditController', RedditController);
+
+RedditController.$inject = ['DomainService', 'SubRedditService']
